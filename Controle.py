@@ -24,9 +24,9 @@ while True:
         adicionar = input("Adicionar item: ")
         lista.append(adicionar)	
     elif opcao == 2:
-            for item in lista:
-                    print(f"\nItem: {Item}
-         elif opcao == 3:
-                 break
-                 else:
-                         print("Opção Inválida!")
+        for item in lista:
+            print (f"\n item: {item}")
+    elif opcao == 3:
+        break
+    else:
+            print("Opção Inválida!")
