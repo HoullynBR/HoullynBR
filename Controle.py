@@ -18,9 +18,15 @@ while True:
         break
 while True:
     if login == user and senha == key:
-        print(f"\n       !#!#!#! Menu Inicial !#!#!#!\n\n  !#!#!#! [1]  Adicionar item     !#!#!#!\n  !#!#!#! [2]  Procurar item      !#!#!#!  \n  !#!#!#! [3]  Editar item        !#!#!#!\n  !#!#!#! [4]  Remover item       !#!#!#!\n  !#!#!#! [5]  Exibir todos itens !#!#!#!\n")
+        print(f"\n       !#!#!#! Menu Inicial !#!#!#!\n\n  !#!#!#! [1]  Adicionar item     !#!#!#!\n  !#!#!#! [2]  Mostar item      !#!#!#!  \n  !#!#!#! [3]  Editar item        !#!#!#!\n  !#!#!#! [4]  Remover item       !#!#!#!\n  !#!#!#! [5]  Exibir todos itens !#!#!#!\n")
     opcao = int(input("Selecione a opção: "))
     if opcao == 1:
         adicionar = input("Adicionar item: ")
         lista.append(adicionar)	
-    elif
+    elif opcao == 2:
+            for item in lista:
+                    print(f"\nItem: {Item}
+         elif opcao == 3:
+                 break
+                 else:
+                         print("Opção Inválida!")
