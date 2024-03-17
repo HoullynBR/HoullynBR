@@ -16,17 +16,17 @@ while True:
     else:
         print(f"\n !#!#!#! Senha e/ou Usuario incorretos  !#!#!#!\n !#!#!#! Deseja tentar acessar novamente?  !#!#!#!\n\n")
         break
-    
-    if login == user and senha == key:
-            print(f"\n       !#!#!#! Menu Inicial !#!#!#!\n\n  !#!#!#! [1]  Adicionar item     !#!#!#!\n  !#!#!#! [2]  Mostar itens       !#!#!#!\n  !#!#!#! [3]  Sair               !#!#!#!\n\n")
-    opcao = int(input("!#!#!#!  Selecione a opção: "))
-    if opcao == 1:
-            adicionar = input("!#!#!#!  Adicionar item: ")
-            lista.append(adicionar)	
-    elif opcao == 2:
-            for item in lista:
-                print (f"\n item: {item}")
-    elif opcao == 3:
-        break
-    else:
-            print("!#!#!#!  Opção Inválida!       !#!#!#!")
+    while True:
+        if login == user and senha == key:
+                print(f"\n       !#!#!#! Menu Inicial !#!#!#!\n\n  !#!#!#! [1]  Adicionar item     !#!#!#!\n  !#!#!#! [2]  Mostar itens       !#!#!#!\n  !#!#!#! [3]  Sair               !#!#!#!\n\n")
+        opcao = int(input("!#!#!#!  Selecione a opção: "))
+        if opcao == 1:
+                adicionar = input("!#!#!#!  Adicionar item: ")
+                lista.append(adicionar)	
+        elif opcao == 2:
+                for item in lista:
+                    print (f"\n item: {item}")
+        elif opcao == 3:
+            break
+        else:
+                print("!#!#!#!  Opção Inválida!       !#!#!#!")
