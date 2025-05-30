@@ -17,7 +17,7 @@ robôs e sistemas que unem performance, inteligência e escalabilidade.
 🚀 Skills e stack:
 
 Python, API REST, Web Scraping, Telegram Bots, Tkinter, PyQt
-Integrações com IQ Option, Firestore, SQLite, e automações em tempo real
+Integrações com Corretoras digitais, Firebase, Firestore, SQLite, e automações em tempo real
 Conhecimentos em redes, servidores SSH, proxy, e scripts de automação
 Interesse crescente em C/C++, machine learning e projetos embarcados
 
